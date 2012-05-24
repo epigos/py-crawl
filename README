@@ -1,0 +1,38 @@
+#Project social-crawler
+Impact of social networks on websites - majorly uses opengraph meta data.
+
+#Data Collection
+	Crawls the web to collect data about websites and store them in a nosql database. i
+data per website is mostly all unique links and the opengraph metadata.
+Algorithm
+- crawl BFS till given upper limit ( 1000 db entires)
+- start crawling from the db to conver DFS (till the uncrawled site in db == 0)
+
+#Presentation
+	Find the website social stats from facebook and other social networks
+
+#Current status
+- unit tests for all features are covered - only positive scenario
+- Crawling both BFS and DFS is covered
+- build simple UI around dataa
+- get fb data for the links stored and add them in UI
+- push it to github with a simple story usecase.
+
+
+
+#PYTHON USAGE
+
+- datastructures - map, list
+- regular expression - findall
+- class and imports
+- custom structures to store data
+
+
+#Social api to get post info
+facebook
+linkedin
+stumbleupon
+pinterest
+twitter
+tumblr
+digg
