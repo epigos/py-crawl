@@ -1,7 +1,7 @@
 import urllib2
 import sys
 import httputil
-from extractor.store import webinfo
+from store import webinfo
 crawledlinks = []
 startcount = 0
 start_with_url = 'start_with_url.txt' 

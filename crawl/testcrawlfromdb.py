@@ -1,5 +1,5 @@
 import httputil
-import webinfo
+from store import webinfo
 import sys
 webinfo = webinfo.ds()
 httputil = httputil.util()
